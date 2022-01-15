@@ -50,6 +50,12 @@ a:hover{
     color: #ffffff;
 }
 
+/*Estilos contacto*/
+#contacto{
+    
+    color: #3b3b3b;
+}
+
 .espacio-row{
     padding-top: 2em;
     padding-bottom: 2em;
