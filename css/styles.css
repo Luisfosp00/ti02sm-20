@@ -6,10 +6,20 @@
 
 body{
     font-family: 'Rubik',sans-serif;
-    font-size: 1em;
+    font-size: 100%;
     color: #707070;
     text-align: center;
 }
+
+img{
+    max-width: 100%;
+}
+
+video{
+    width: 100%;
+    height: auto;
+}
+
 h1{
     color: #3b3b3b;
     font-size: 2em;
@@ -19,6 +29,10 @@ h1{
 h3{
     color: #3b3b3b;
     font-size: 1.375em;
+}
+
+.borde{
+    border: #6acbe0 thin solid
 }
 
 /* Estilos del header*/
@@ -59,6 +73,22 @@ a:hover{
 .espacio-row{
     padding-top: 2em;
     padding-bottom: 2em;
+}
+
+input, textarea{
+    display: block;
+    width: 28.125em;
+    margin: 0;
+    border: thin solid #707070;
+    border-radius: 0.3125em;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input{
+    height: 3em;
 }
 
 /*Estilos Footer*/
